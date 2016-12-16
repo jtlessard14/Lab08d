@@ -1,0 +1,40 @@
+div#nav {
+	border-color: white;
+	border-style: ridge;
+	border-width: 10px;
+	background-color:white;
+	border: 1px solid black;
+	padding: 1em;
+	clear: left;
+	height: 1.5em;
+	width: 99.3%;
+	}
+
+
+div#nav ul { 
+	list-style-type: none;
+	}
+	 
+
+div#nav ul li {
+	float: left;
+	margin-right: 6.171em;
+	}
+	 
+
+div#nav ul li a {
+	padding: 0.25em 1em;
+	text-decoration: none; /* no underline */
+	background-color:red;
+	color: black;
+	border: 2px solid black;
+	border-top-left-radius: 1em 1em; /* rounded corner! */
+	border-top-left-radius: 1em 1em; /* another rounded corner! */
+	}
+	 
+
+div#nav ul li a:hover, div#navigation ul li a:focus {
+	color: black;
+	background-color: white;
+	font-weight: bold;
+	}
